@@ -15,6 +15,10 @@ public class es2 {
                 x[i]=0;
             }
         }
+        System.out.println("i numeri sono:");
+        for(i=0; i<n; i++){
+            System.out.println(x[i]);
+        }
     }
     
 }
