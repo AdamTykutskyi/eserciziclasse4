@@ -12,7 +12,10 @@ public class es1{
             System.out.println("Dammi il valore in posizione " + i);
             x[i] = Integer.parseInt(input.readLine());
         }
-
+        System.out.println("i numeri sono:");
+        for(i=0; i<n; i++){
+            System.out.println(x[i]);
+        }
     }
 }
 
